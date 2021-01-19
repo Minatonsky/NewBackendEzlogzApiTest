@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -12,6 +9,11 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
       </path>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
@@ -35,41 +37,163 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="660eb711-957d-418e-9483-8b2931da6e6e" name="Default Changelist" comment="refactoring3 was add">
-      <change afterPath="$PROJECT_DIR$/src/test/java/singleTest/logbookTest/SBWithViolationTest.java" afterDir="false" />
+    <list default="true" id="6fe6484a-b80c-4b97-8621-c0caf33b2f74" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/bin/allure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/bin/allure.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/config/allure-cucumber.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/config/allure-junit.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/config/allure.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/allure-commandline-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/allure-generator-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/allure-plugin-api-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/allure1-model-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/allure2-model-api-1.0-BETA4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/allure2-model-jackson-1.0-BETA4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/allure2-model-pojo-1.0-BETA4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/asm-5.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/asm-analysis-5.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/asm-tree-5.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/asm-util-5.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/commons-io-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/config/jetty-logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/config/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/freemarker-2.3.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/jackson-annotations-2.8.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/jackson-core-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/jackson-databind-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/jackson-dataformat-yaml-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/jackson-module-jaxb-annotations-2.8.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/jaxb-utils-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/jcommander-1.64.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/jetty-http-9.2.2.v20140723.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/jetty-io-9.2.2.v20140723.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/jetty-server-9.2.2.v20140723.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/jetty-util-9.2.2.v20140723.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/parboiled-core-1.1.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/parboiled-java-1.1.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/pegdown-1.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/properties-2.0.RC5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/slf4j-api-1.7.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/slf4j-log4j12-1.7.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/snakeyaml-1.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/lib/tika-core-1.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/behaviors-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/behaviors-plugin/plugin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/behaviors-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/custom-logo-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/custom-logo-plugin/static/custom-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/custom-logo-plugin/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/junit-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/junit-plugin/junit-plugin-2.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/junit-plugin/lib/doxia-sink-api-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/junit-plugin/lib/maven-reporting-api-3.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/junit-plugin/lib/surefire-report-parser-2.19.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/packages-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/packages-plugin/plugin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/packages-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/screen-diff-plugin/allure-plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/screen-diff-plugin/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.allure/allure-2.0.1/plugins/screen-diff-plugin/static/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/WorkSpace.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/qalight.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/qalight.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LogsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LogsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/singleTest/logbookTest/RestBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/singleTest/logbookTest/RestBreak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/singleTest/logbookTest/SplitSleeperBerthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/singleTest/logbookTest/SplitSleeperBerthTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unitTest/TestMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTest/TestMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/qalight.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/drivers/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/drivers/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/PAYMENTS METHODS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/Pink-Floyd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/testCycle.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/testLogin.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/testParameterizedOrder.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/testPdfFile.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data/testSettings.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libs/ActionsWithOurElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libs/ChargeMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libs/ChargeSmartSafetyMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libs/ConfigData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libs/ConfigProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libs/ConfigProperties.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libs/CycleRules.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libs/DataForTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libs/Database.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libs/ECycleRules.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libs/ExcelDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libs/Prices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libs/SpreadsheetData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libs/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/libs/UtilsForDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AccountSettingsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DashboardPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DocumentsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/EldPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/EquipmentPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FinancesPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FleetDriversPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HelpAndTrainingPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LogsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ManagerEldPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ManagerModalEldPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ModalOrderPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/OrderInfoPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ParentPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ReturnsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SettingsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/flipflopTest/FlipFlopAllTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/restSteps/MainRestSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/restSteps/RestStepsFlipFlop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/restTest/EzlogzAPITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/restTest/linksForRestAssured" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chargeTest/ChargeDefaultersTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chargeTest/ChargeFleetSoloTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chargeTest/ChargeMonthToMonthTariff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parameterizedTest/SafetyAddCardParamsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parameterizedTest/SafetyCreateEquipmentParamTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parameterizedTest/SoloAddCardParamsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parameterizedTest/SoloDriverCreateEquipmentParamTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parameterizedTest/SoloDriverSettingsParameterizedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parameterizedTest/ordersParamsTest/FleetOrderParamsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parameterizedTest/ordersParamsTest/ManagerOrderParamsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parameterizedTest/ordersParamsTest/SoloOrderParamsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parentTest/ParentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/parentTest/ParentTestWithoutWebDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleTest/ReturnDevicesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleTest/documentsTest/CarrierCreateDocumentsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleTest/documentsTest/CarrierUpDateDocumentsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleTest/equipmentTest/SoloDriverEquipmentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleTest/logbookTest/CycleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleTest/logbookTest/LogbookSimpleTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleTest/logbookTest/RestBreak.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleTest/logbookTest/SBWithViolationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleTest/logbookTest/ShiftAndDrivingHoursWithParamsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleTest/logbookTest/SplitSleeperBerthTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleTest/logbookTest/restart_34_Hours.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleTest/settingsTest/DriverLicenseParameterizedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleTest/settingsTest/FleetAccountSettingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleTest/settingsTest/SafetyDriverSettings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleTest/settingsTest/SoloDriverSettingAccountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleTest/settingsTest/SoloDriverSettingsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleTest/smartSafety/CancelSmartSafetyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleTest/smartSafety/ChargeSmartSafety.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleTest/smartSafety/SmartSafetyOrderTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTest/TestMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userToken.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="AnnotationType" />
-        <option value="Enum" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -78,593 +202,30 @@
         <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.1\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="vmOptionsForImporter" value="-Xmx768m" />
-      </MavenImportingSettings>
-    </option>
   </component>
-  <component name="ProjectId" id="1P0rmWrMh0xA0QVXeBejzL9RUNH" />
+  <component name="ProjectId" id="1n6xfWa2bfbNv4pbAVdEeL5XDlU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../WorkSpace/mobileTest" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\workspace\testdevEzlogz\src\main\java\data" />
-      <recent name="C:\workspace\testdevEzlogz\src\main\java\libs" />
-      <recent name="C:\workspace\testdevEzlogz\src\test\java\restTest" />
-      <recent name="C:\workspace\testdevEzlogz\src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\workspace\testdevEzlogz" />
-      <recent name="C:\WorkSpace\src\test\java\restTest" />
-      <recent name="C:\workspace\testdevEzlogz\src\main\java\pages" />
-      <recent name="C:\workspace\testdevEzlogz\src\main\java\data" />
-      <recent name="C:\workspace\testdevEzlogz\src\drivers" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="frankesteinTest.documentsTest" />
-      <recent name="localSiteTest.documentsTest" />
-      <recent name="parameterizedOrders" />
-      <recent name="pages" />
-      <recent name="loginTests" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="restTest" />
-      <recent name="orders" />
-      <recent name="parameterizedOrders" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.RestBreak.restBreak">
-    <configuration name="RestBreak.restBreak" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testdevEzlogz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singleTest.logbookTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="singleTest.logbookTest" />
-      <option name="MAIN_CLASS_NAME" value="singleTest.logbookTest.RestBreak" />
-      <option name="METHOD_NAME" value="restBreak" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SplitSleeperBerthTest.split_2_8_MultiDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testdevEzlogz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singleTest.logbookTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="singleTest.logbookTest" />
-      <option name="MAIN_CLASS_NAME" value="singleTest.logbookTest.SplitSleeperBerthTest" />
-      <option name="METHOD_NAME" value="split_2_8_MultiDayTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SplitSleeperBerthTest.split_3_7_MultiDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testdevEzlogz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singleTest.logbookTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="singleTest.logbookTest" />
-      <option name="MAIN_CLASS_NAME" value="singleTest.logbookTest.SplitSleeperBerthTest" />
-      <option name="METHOD_NAME" value="split_3_7_MultiDayTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SplitSleeperBerthTest.split_7_3_MultiDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testdevEzlogz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singleTest.logbookTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="singleTest.logbookTest" />
-      <option name="MAIN_CLASS_NAME" value="singleTest.logbookTest.SplitSleeperBerthTest" />
-      <option name="METHOD_NAME" value="split_7_3_MultiDayTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SplitSleeperBerthTest.split_8_2_MultiDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="testdevEzlogz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singleTest.logbookTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="singleTest.logbookTest" />
-      <option name="MAIN_CLASS_NAME" value="singleTest.logbookTest.SplitSleeperBerthTest" />
-      <option name="METHOD_NAME" value="split_8_2_MultiDayTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMethods.getEventNewOrder" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="WorkSpace" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unitTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="unitTest" />
-      <option name="MAIN_CLASS_NAME" value="unitTest.TestMethods" />
-      <option name="METHOD_NAME" value="getEventNewOrder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SoloOrders" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings">
-          <MavenRunnerSettings>
-            <option name="delegateBuildToMaven" value="false" />
-            <option name="environmentProperties">
-              <map />
-            </option>
-            <option name="jreName" value="1.8" />
-            <option name="mavenProperties">
-              <map />
-            </option>
-            <option name="passParentEnv" value="true" />
-            <option name="runMavenInBackground" value="true" />
-            <option name="skipTests" value="false" />
-            <option name="vmOptions" value="" />
-          </MavenRunnerSettings>
-        </option>
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="clean" />
-                <option value="test" />
-                <option value="-Dtest=SoloOrderParamsTest#cancelDevicesByUser[*],managerCanceledOrder[*],orderCompletedByManager[*]" />
-                <option value="-Dmaven.test.failure.ignore=true" />
-              </list>
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="JUnit.TestMethods.getEventNewOrder" />
-      <item itemvalue="JUnit.SplitSleeperBerthTest.split_2_8_MultiDayTest" />
-      <item itemvalue="JUnit.SplitSleeperBerthTest.split_8_2_MultiDayTest" />
-      <item itemvalue="JUnit.SplitSleeperBerthTest.split_3_7_MultiDayTest" />
-      <item itemvalue="JUnit.SplitSleeperBerthTest.split_7_3_MultiDayTest" />
-      <item itemvalue="JUnit.RestBreak.restBreak" />
-      <item itemvalue="Maven.SoloOrders" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.RestBreak.restBreak" />
-        <item itemvalue="JUnit.SplitSleeperBerthTest.split_8_2_MultiDayTest" />
-        <item itemvalue="JUnit.SplitSleeperBerthTest.split_3_7_MultiDayTest" />
-        <item itemvalue="JUnit.SplitSleeperBerthTest.split_2_8_MultiDayTest" />
-        <item itemvalue="JUnit.SplitSleeperBerthTest.split_7_3_MultiDayTest" />
-      </list>
-    </recent_temporary>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SQLPlugin.ProjectConfiguration">
     <queries />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="660eb711-957d-418e-9483-8b2931da6e6e" name="Default Changelist" comment="" />
-      <created>1562184178408</created>
+      <changelist id="6fe6484a-b80c-4b97-8621-c0caf33b2f74" name="Default Changelist" comment="" />
+      <created>1610724444400</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562184178408</updated>
-      <workItem from="1562184182834" duration="5914000" />
-      <workItem from="1562217916564" duration="48523000" />
-      <workItem from="1562306849625" duration="26488000" />
-      <workItem from="1562409011140" duration="24585000" />
-      <workItem from="1562665338918" duration="52834000" />
-      <workItem from="1562782581468" duration="9021000" />
-      <workItem from="1562822119836" duration="58303000" />
+      <updated>1610724444400</updated>
     </task>
-    <task id="LOCAL-00059" summary="test new tariff was add">
-      <created>1573831704499</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1573831704500</updated>
-    </task>
-    <task id="LOCAL-00060" summary="test agreement new tariff was add">
-      <created>1574412271927</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1574412271927</updated>
-    </task>
-    <task id="LOCAL-00061" summary="test charge new tariff was add">
-      <created>1574784047810</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1574784047810</updated>
-    </task>
-    <task id="LOCAL-00062" summary="test charge default new tariff was add">
-      <created>1574861560485</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1574861560485</updated>
-    </task>
-    <task id="LOCAL-00063" summary="test charge default new tariff was add">
-      <created>1575388985395</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1575388985396</updated>
-    </task>
-    <task id="LOCAL-00064" summary="test charge by days new tariff was add">
-      <created>1575906754782</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1575906754783</updated>
-    </task>
-    <task id="LOCAL-00065" summary="test2 charge by days was add">
-      <created>1575984179943</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1575984179943</updated>
-    </task>
-    <task id="LOCAL-00066" summary="deleted old order test was add">
-      <created>1575987606036</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1575987606036</updated>
-    </task>
-    <task id="LOCAL-00067" summary="some changes was add">
-      <created>1576857900697</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1576857900698</updated>
-    </task>
-    <task id="LOCAL-00068" summary="new tariff was add">
-      <created>1577116765784</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1577116765785</updated>
-    </task>
-    <task id="LOCAL-00069" summary="new tariff defaulters was add">
-      <created>1577195348294</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1577195348294</updated>
-    </task>
-    <task id="LOCAL-00070" summary="refactoring was add">
-      <created>1577464119585</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1577464119585</updated>
-    </task>
-    <task id="LOCAL-00071" summary="refactoring 2 was add">
-      <created>1577721069875</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1577721069875</updated>
-    </task>
-    <task id="LOCAL-00072" summary=" was add">
-      <created>1584524717971</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1584524717972</updated>
-    </task>
-    <task id="LOCAL-00073" summary=" was add accoun fleet test">
-      <created>1584962999081</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1584962999082</updated>
-    </task>
-    <task id="LOCAL-00074" summary=" document fleet test was add">
-      <created>1585162444275</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1585162444276</updated>
-    </task>
-    <task id="LOCAL-00075" summary=" up date document fleet test was add">
-      <created>1585314694237</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1585314694238</updated>
-    </task>
-    <task id="LOCAL-00076" summary=" charge refactoring test was add">
-      <created>1585323597487</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1585323597487</updated>
-    </task>
-    <task id="LOCAL-00077" summary=" doc test refactoring test was add">
-      <created>1585855539644</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1585855539645</updated>
-    </task>
-    <task id="LOCAL-00078" summary=" doc test2 refactoring test was add">
-      <created>1585940931908</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1585940931909</updated>
-    </task>
-    <task id="LOCAL-00079" summary=" up date doc test2 refactoring test was add">
-      <created>1586034273666</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1586034273667</updated>
-    </task>
-    <task id="LOCAL-00080" summary=" charge refactoring test was add">
-      <created>1586450490465</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1586450490466</updated>
-    </task>
-    <task id="LOCAL-00081" summary=" defaulter refactoring test was add">
-      <created>1586505340255</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1586505340256</updated>
-    </task>
-    <task id="LOCAL-00082" summary=" equipment test was add">
-      <created>1587043473968</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1587043473969</updated>
-    </task>
-    <task id="LOCAL-00083" summary=" logbook test was add">
-      <created>1596552254978</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1596552254979</updated>
-    </task>
-    <task id="LOCAL-00084" summary=" cycle test was add">
-      <created>1596639019176</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1596639019177</updated>
-    </task>
-    <task id="LOCAL-00085" summary=" cycle2 test was add">
-      <created>1596728083828</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1596728083828</updated>
-    </task>
-    <task id="LOCAL-00086" summary=" cycle3 test was add">
-      <created>1596810109799</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1596810109799</updated>
-    </task>
-    <task id="LOCAL-00087" summary=" cycle4 test was add">
-      <created>1597076664955</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1597076664956</updated>
-    </task>
-    <task id="LOCAL-00088" summary=" cycle5 test was add">
-      <created>1597157448882</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1597157448882</updated>
-    </task>
-    <task id="LOCAL-00089" summary=" cycle finish test was add">
-      <created>1597323333980</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1597323333981</updated>
-    </task>
-    <task id="LOCAL-00090" summary=" 14 hour rules test was add">
-      <created>1597410622320</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1597410622321</updated>
-    </task>
-    <task id="LOCAL-00091" summary=" 14 hour rules test was add vol2">
-      <created>1597411731128</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1597411731128</updated>
-    </task>
-    <task id="LOCAL-00092" summary=" 14 hour rules test was add vol3">
-      <created>1597412759799</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1597412759799</updated>
-    </task>
-    <task id="LOCAL-00093" summary=" 2_8 SB test was add vol3">
-      <created>1597762797420</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1597762797420</updated>
-    </task>
-    <task id="LOCAL-00094" summary="settings test was add">
-      <created>1597849199661</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1597849199661</updated>
-    </task>
-    <task id="LOCAL-00095" summary="sb test was add">
-      <created>1598627952913</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1598627952914</updated>
-    </task>
-    <task id="LOCAL-00096" summary="sb 8/2 test was add">
-      <created>1598971739063</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1598971739063</updated>
-    </task>
-    <task id="LOCAL-00097" summary="phone verification was add">
-      <created>1599147342584</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1599147342584</updated>
-    </task>
-    <task id="LOCAL-00098" summary="phone verification2 was add">
-      <created>1599211238736</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1599211238736</updated>
-    </task>
-    <task id="LOCAL-00099" summary="phone verification3 was add">
-      <created>1599223742462</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1599223742462</updated>
-    </task>
-    <task id="LOCAL-00100" summary="restart 34 was add">
-      <created>1599232786374</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1599232786374</updated>
-    </task>
-    <task id="LOCAL-00101" summary="refactoring was add">
-      <created>1599573231461</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1599573231461</updated>
-    </task>
-    <task id="LOCAL-00102" summary="refactoring2 was add">
-      <created>1599580762919</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1599580762919</updated>
-    </task>
-    <task id="LOCAL-00103" summary="refactoring3 was add">
-      <created>1599581035569</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1599581035569</updated>
-    </task>
-    <task id="LOCAL-00104" summary="hot fix cargo type">
-      <created>1600261033412</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1600261033412</updated>
-    </task>
-    <task id="LOCAL-00105" summary="api flipflop cargo type">
-      <created>1600444361690</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1600444361690</updated>
-    </task>
-    <task id="LOCAL-00106" summary="split_7_3_TransitoryStatusTest">
-      <created>1600787723541</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1600787723542</updated>
-    </task>
-    <task id="LOCAL-00107" summary="rest brake">
-      <created>1601481612910</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1601481612910</updated>
-    </task>
-    <option name="localTasksCounter" value="108" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239216000" />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -676,146 +237,5 @@
         </entry>
       </map>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value=" logbook test was add" />
-    <MESSAGE value=" cycle test was add" />
-    <MESSAGE value=" cycle2 test was add" />
-    <MESSAGE value=" cycle3 test was add" />
-    <MESSAGE value=" cycle4 test was add" />
-    <MESSAGE value=" cycle5 test was add" />
-    <MESSAGE value=" cycle finish test was add" />
-    <MESSAGE value=" 14 hour rules test was add" />
-    <MESSAGE value=" 14 hour rules test was add vol2" />
-    <MESSAGE value=" 14 hour rules test was add vol3" />
-    <MESSAGE value=" 2_8 SB test was add vol3" />
-    <MESSAGE value="settings test was add" />
-    <MESSAGE value="sb test was add" />
-    <MESSAGE value="sb 8/2 test was add" />
-    <MESSAGE value="phone verification was add" />
-    <MESSAGE value="phone verification2 was add" />
-    <MESSAGE value="phone verification3 was add" />
-    <MESSAGE value="restart 34 was add" />
-    <MESSAGE value="refactoring was add" />
-    <MESSAGE value="refactoring2 was add" />
-    <MESSAGE value="refactoring3 was add" />
-    <MESSAGE value="hot fix cargo type" />
-    <MESSAGE value="api flipflop cargo type" />
-    <MESSAGE value="split_7_3_TransitoryStatusTest" />
-    <MESSAGE value="rest brake" />
-    <option name="LAST_COMMIT_MESSAGE" value="rest brake" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-1230" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1598527830294">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1230" y="275" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1598527830294" />
-    <state x="-1828" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1596721912372">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1828" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596721912371" />
-    <state x="-1155" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1597147302702">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1155" y="221" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597147302702" />
-    <state x="-1280" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1601279826572">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1280" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1601279826572" />
-    <state x="-1228" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599580918893">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1228" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599580918893" />
-    <state x="-1586" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599557658516">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1586" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599557658516" />
-    <state x="-1230" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599557229772">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1230" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599557229772" />
-    <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1596797375678">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1180" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596797375678" />
-    <state width="1877" height="208" key="GridCell.Tab.0.bottom" timestamp="1601895737664">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1601895737664" />
-    <state width="1877" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600961399181" />
-    <state width="1877" height="208" key="GridCell.Tab.0.center" timestamp="1601895737664">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1601895737664" />
-    <state width="1877" height="235" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600961399180" />
-    <state width="1877" height="208" key="GridCell.Tab.0.left" timestamp="1601895737663">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1601895737663" />
-    <state width="1877" height="235" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600961399180" />
-    <state width="1877" height="208" key="GridCell.Tab.0.right" timestamp="1601895737664">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1601895737664" />
-    <state width="1877" height="235" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600961399181" />
-    <state width="1877" height="272" key="GridCell.Tab.1.bottom" timestamp="1598011108027">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="272" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1598011108027" />
-    <state width="1877" height="272" key="GridCell.Tab.1.center" timestamp="1598011108026">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="272" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1598011108026" />
-    <state width="1877" height="272" key="GridCell.Tab.1.left" timestamp="1598011108026">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="272" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1598011108026" />
-    <state width="1877" height="272" key="GridCell.Tab.1.right" timestamp="1598011108026">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="272" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1598011108026" />
-    <state x="-1380" y="263" key="IDE.errors.dialog" timestamp="1599576405479">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1380" y="263" key="IDE.errors.dialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599576405479" />
-    <state x="-1459" y="165" key="SettingsEditor" timestamp="1600956986599">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1459" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1600956986599" />
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601481625442">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1601481625442" />
-    <state x="-1828" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597065879990">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1828" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597065879990" />
-    <state x="-1407" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1597836173281">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1407" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1597836173281" />
-    <state x="-1304" y="240" key="run.anything.popup" timestamp="1599557263544">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1304" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599557263544" />
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599209409113">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599209409113" />
   </component>
 </project>
